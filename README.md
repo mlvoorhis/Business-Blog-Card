@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://mlvoorhis.github.io/Business-Blog-Card/}">
+    <a href="https://mlvoorhis.github.io/Business-Blog-Card/">
       Demo
     </a>
     <span> | </span>
