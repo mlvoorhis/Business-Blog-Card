@@ -28,36 +28,36 @@
 - [Built with](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
+Made with HTML & CSS. Utilized Flexbox, media queries, and relative units for responsive design.
 
 <img src="thumbnail.jpg">
 
 ### What I learned
-Stuff about picture
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+I learned how to use the &lt;picture&gt; tag. I figured out that if you apply CSS styling to the main image, it will apply to all srcsets regardless of vw. 
+
+My other challenge was figuring out how to make the width of the author section border match the width of the container. I used this as a workaround.
+
+```ruby
+  .author {
+    width: calc(100% + 64px);
+    margin-left: -32px;
+   padding-left: 32px;
+  }
+```
 
 ### Useful resources
-
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+- <a href="https://www.w3schools.com/tags/tag_picture.asp" target="_blank">W3Schools &lt;Picture&gt; Tag</a> - Helpful overview of the picture tag.
+- <a href="freecodecamp.org" target="_blank">Free Code Camp</a>
 
 ### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
@@ -65,11 +65,6 @@ Stuff about picture
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@mlvoorhis]( https://github.com/mlvoorhis)
