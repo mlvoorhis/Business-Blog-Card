@@ -1,0 +1,121 @@
+:root {
+  --background-color: #f2f5f9;
+  --card-backround-color: #ffffff;
+  --black-text-color: #111729;
+  --gray-text-color: #4a5567;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: var(--black-text-color);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: var(--gray-text-color);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#header {
+  margin-bottom: 24px;
+}
+
+#author {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 24px;
+  padding-top: 24px;
+  align-items: center;
+  border-top: 1px solid var(--background-color);
+  width: calc(100% + 64px);
+  margin-left: -32px;
+  padding-left: 32px;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--gray-text-color);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.name {
+  color: var(--black-text-color);
+}
+
+.role {
+  font-family: "Lato", sans-serif;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  border: 4px solid var(--background-color);
+  width: 50px;
+}
+
+#card-container {
+  background-color: var(--card-backround-color);
+  width: 450px;
+  border-radius: 20px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#hero-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#main-content {
+  margin: 0 32px;
+}
+
+@media screen and (max-width: 450px) {
+  #card-container {
+    width: 100%;
+  }
+
+  body {
+    margin: 0 48px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+    display: inline;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+}
